@@ -1,9 +1,9 @@
 #!/bin/bash
 #title:          android_ndk_cross_compile_build.sh
-#description:    NDK cross compile build script for fuse using an autoconf build system	
+#description:    NDK cross compile build script for bindfs using an autoconf build system	
 #author:         agnostic-apollo
 #usage:          To be used with `android_ndk_cross_compile_build_automator.sh`.
-#date:           1-Aug-2019
+#date:           1-Nov-2019
 #versions:       1.0
 #license:        MIT License
 
@@ -39,7 +39,7 @@
 #set an ARCH_SRC that this project cannot be built for
 UNSUPPORTED_ARCH_SRC="armeabi-android4.0.4-"
 
-#fuse is compiled with a c compiler, but you will get compilation errors with gcc with ndk older than r15
+#bindfs is compiled with a c compiler, but you will get compilation errors with gcc with ndk older than r15
 #Android NDK provides gcc below NDK version 18 and clang in NDK versions greater or equal to 15
 #SUPPORTED_C_COMPILER="gcc clang"
 SUPPORTED_C_COMPILER="gcc clang"
