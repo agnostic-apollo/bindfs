@@ -3,7 +3,7 @@
 
 bindfs  -  https://bindfs.org/
 
-This repo has been patched to support NDK compilation for android, since some functions are not provided by bionic which are used in `src/userinfo.c`.
+This repo has been patched to support NDK compilation for android, since some functions are not provided by bionic which are used in `src/userinfo.c`. Patch is done based on a termux [patch](https://github.com/termux/termux-packages/blob/master/ndk-patches/grp.h.patch). 
 
 bindfs is a FUSE filesystem for mirroring a directory to another
 directory, similarly to `mount --bind`. The permissions of the mirrored
