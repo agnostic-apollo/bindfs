@@ -1,0 +1,54 @@
+# Editor backups and junk
+*~
+*.bak
+
+# Autotools stuff
+Makefile.in
+Makefile
+
+/autom4te.cache
+/aclocal.m4
+/compile
+/configure
+/depcomp
+/install-sh
+/missing
+
+/config.log
+/config.sub
+/config.guess
+/config.status
+/config.h.in
+/config.h
+/libtool
+/ltmain.sh
+/stamp-h1
+/test-driver
+
+# C stuff
+
+*.o
+.libs
+.deps
+
+# Products
+
+src/bindfs
+tests/fcntl_locker
+tests/odirect_read
+tests/odirect_write
+tests/readdir_inode
+tests/test_dir_rewind
+tests/utimens_nofollow
+tests/*.log
+tests/*.trs
+tests/internals/test_internals
+tests/internals/test_rate_limiter
+tests/internals/*.log
+tests/internals/*.trs
+
+# Vagrant
+
+vagrant/*/*.log
+vagrant/*/.vagrant
+
