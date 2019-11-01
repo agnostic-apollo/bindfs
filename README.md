@@ -74,7 +74,7 @@ You can destroy all bindfs Vagrant machines (but not the downloaded images)
 with `make vagrant-clean`.
 
 
-## Cross Compile Instructions for Android Using NDK
+## Cross Compile Instructions for Android Using NDK ##
 
 - bindfs requires fuse libraries for compilation. fuse compiled with NDK is used for this.
 
@@ -110,7 +110,7 @@ bash ./android_ndk_cross_compile_build_automator
 - `android_ndk_cross_compile_build_automator/$POST_BUILD_SCRIPTS_DIR/bindfs_extractor.sh` will extract `bindfs` binaries from `android_ndk_cross_compile_build_automator/$INSTALL_DIR/bindfs/$ARCHS_SRC` and zip them at `android_ndk_cross_compile_build_automator/$OUT_DIR/bindfs/bindfs<build-info>.zip`.
 
 
-## Install Instructions for Termux on Android
+## Install Instructions for Termux on Android ##
 
 - Download release zip or copy the zip built from source to your device.
 
